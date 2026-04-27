@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
+    flex-wrap: nowrap;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius: 16px;
+    border: 5px solid #00BFFF;
+
+}
+
+.logo img {
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.logo div {
+    flex: 0 1 auto;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -27,7 +51,7 @@ header img {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    max-width: 80px;
+    max-width: 120px;
     width: auto;
     display: inline;
     margin: 0;
@@ -72,6 +96,16 @@ p {
     letter-spacing: 2px;
     padding-left: 25px;
     text-align: justify;
+}
+
+.nome {
+    color: tomato;
+    margin: 15px 0;
+    font-size: larger;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    text-align: justify;
+    list-style-type: none;
 }
 
 img {
