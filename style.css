@@ -100,6 +100,10 @@ p {
 
 .nome {
     color: tomato;
+}
+
+.nome li {
+    color: tomato;
     margin: 15px 0;
     font-size: larger;
     letter-spacing: 2px;
